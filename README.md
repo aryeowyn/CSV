@@ -53,6 +53,8 @@ npm run dev
 name: <file name>
 file: <file>
 ```
+
 Replace <file name> with the desired name for the file, and <file> with the CSV file you want to upload.
+
 6. Retrieve the details of a file by sending a GET request to `http://localhost:3000/file/<file ID>`, where <file ID> is the unique ID of the file you want to retrieve. Only the user who uploaded the file can view its details.
 7. Log out of the app by sending a POST request to `http://localhost:3000/user/logout`.
