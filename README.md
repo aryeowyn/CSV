@@ -14,7 +14,7 @@ This is a simple API built with Node.js, Express.js, and MongoDB that allows use
 git clone https://github.com/aryeowyn/CSV.git
 ```
 2. Navigate to the project directory and install the required packages using the console with:
-```
+```node
 npm install
 ```
 3. Create a MongoDB instance to store the app's data. You can create a cluster on the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) website, which offers a free tier for development and testing.
@@ -42,7 +42,7 @@ npm run dev
 }
 ```
 4. Log in to the app by sending a `POST` request to `http://localhost:3000/user/login` with the following JSON payload:
-```
+```json
 {
   "email": "john.doe@example.com",
   "password": "password123"
