@@ -41,14 +41,14 @@ npm run dev
   "password": "password123"
 }
 ```
-4. Log in to the app by sending a POST request to `http://localhost:3000/user/login` with the following JSON payload:
+4. Log in to the app by sending a `POST` request to `http://localhost:3000/user/login` with the following JSON payload:
 ```
 {
   "email": "john.doe@example.com",
   "password": "password123"
 }
 ```
-5. Upload a new CSV file by sending a POST request to `http://localhost:3000/file` with the following multipart/form-data payload:
+5. Upload a new CSV file by sending a `POST` request to `http://localhost:3000/file` with the following multipart/form-data payload:
 ```
 name: <file name>
 file: <file>
